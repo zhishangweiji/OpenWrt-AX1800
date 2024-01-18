@@ -6,7 +6,7 @@ on:
     - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/breeze303/ipq6000-6.1-nss
+  REPO_URL: https://github.com/breeze303/ipq60xx-wifi.git
   REPO_BRANCH: main
   FEEDS_CONF: feeds/ipq6000-6.1.default
   CONFIG_FILE: configs/ipq6000-6.1-wifi.config
