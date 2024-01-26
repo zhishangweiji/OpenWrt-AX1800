@@ -2,7 +2,7 @@
 # shellcheck disable=SC3043,SC2086,SC2164,SC2103,SC2046
 
 get_sources() {
-  git clone -b ipq60xx-wifi https://github.com/breeze303/ipq60xx-6.1.git $GITHUB_REF_NAME openwrt
+  git clone $BUILD_REPO -b ipq60xx-wifi $GITHUB_REF_NAME openwrt
 }
 
 echo_version() {
