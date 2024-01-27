@@ -2,7 +2,7 @@
 # shellcheck disable=SC3043,SC2086,SC2164,SC2103,SC2046
 
 get_sources() {
-  git clone -b ipq60xx-wifi $BUILD_REPO openwrt
+  git clone --single-branch -b $REPO_BRANCH $BUILD_REPO openwrt
 }
 
 echo_version() {
