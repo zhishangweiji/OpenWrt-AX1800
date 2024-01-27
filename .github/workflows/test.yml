@@ -36,13 +36,14 @@ jobs:
     env:
       TZ: Asia/Taipei
       BUILD_REPO: https://github.com/breeze303/ipq60xx-6.1.git
+      REPO_BRANCH: ipq60xx-wifi
       BUILD_PROFILE: ${{ matrix.PROFILE }}
       BACKUP_DL_SRC: ${{ github.event.inputs.backup_dl_src }}
     strategy:
       fail-fast: false
       matrix:
         PROFILE:
-          - test
+          - ipq60xx-wifi
 
     steps:
       - name: Maximize disk space
