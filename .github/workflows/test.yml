@@ -12,6 +12,12 @@ on:
         description: 'Whether to backup downloaded sources to releases'
         required: false
         default: '0'
+  repository_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connection to Actions'
+        required: false
+        default: 'false'
 
 jobs:
   build:
