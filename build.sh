@@ -14,6 +14,8 @@ echo_version() {
 }
 
 build_firmware() {
+  ls -a
+    
   cd openwrt
   cp feeds/ipq6000-6.1.default feeds.conf.default
   ./scripts/feeds update -a
