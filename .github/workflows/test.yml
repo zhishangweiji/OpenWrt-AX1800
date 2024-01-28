@@ -1,14 +1,9 @@
 name: Build
 
 on:
-  repository_dispatch:
+  push:
   workflow_dispatch:
     inputs:
-      ssh:
-        description: 'SSH connection to Actions'
-        required: false
-        default: 'false'
-      push:
       upload_release:
         description: 'Whether to upload binaries to releases'
         required: true
@@ -74,8 +69,6 @@ jobs:
 
       - name: Build firmware
         run: |
-            ls -a
-            
             chmod +x build.sh
             ./build.sh
 
