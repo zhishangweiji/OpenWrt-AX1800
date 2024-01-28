@@ -14,7 +14,7 @@ echo_version() {
 }
 
 build_firmware() {
-  cd /home
+  cd /root
   ls -a
     
   cd openwrt
