@@ -14,11 +14,12 @@ echo_version() {
 }
 
 build_firmware() {
-
-  cp configs/ipq6000-6.1-wifi.config openwrt/.config
   cd openwrt
   ./scripts/feeds update -a
   ./scripts/feeds install -a
+  cd ..
+  cp configs/ipq6000-6.1-wifi.config openwrt/.config
+  cd openwrt
   make defconfig
   make -j$(($(nproc) + 1)) V=e || make -j1 V=sc || exit 1
 
