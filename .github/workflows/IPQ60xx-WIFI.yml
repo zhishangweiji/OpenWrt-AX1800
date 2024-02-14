@@ -7,7 +7,7 @@ on:
       upload_release:
         description: 'Whether to upload binaries to releases'
         required: true
-        default: '0'
+        default: '1'
       backup_dl_src:
         description: 'Whether to backup downloaded sources to releases'
         required: false
