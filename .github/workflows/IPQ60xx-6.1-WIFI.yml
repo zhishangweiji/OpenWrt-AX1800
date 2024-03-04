@@ -7,7 +7,7 @@ on:
 
 env:
   REPO_URL: https://github.com/breeze303/ipq60xx-6.1.git
-  REPO_BRANCH: ipq60xx-wifi
+  REPO_BRANCH: main
   CONFIG_FILE: configs/new-wifi.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
