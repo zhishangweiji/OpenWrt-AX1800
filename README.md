@@ -1,18 +1,20 @@
 <div align="center">
 <img width="768" src="https://cdn.jsdelivr.net/gh/haiibo/OpenWrt/images/openwrt.png"/>
-<h1>OpenWrt — IPQ6000云编译</h1>
+<h1>OpenWrt — IPQ60XX云编译</h1>
 
 
 ## 项目说明 [![](https://img.shields.io/badge/-项目基本介绍-FFFFFF.svg)](#项目说明-)
 - 固件默认管理地址：`192.168.1.1` 默认用户：`root` 默认密码：`password`
+- 源码来源：https://github.com/breeze303/ipq60xx-6.1.git
 - 源码来源：https://github.com/openwrt-dev/openwrt-ipq60xx 感谢大佬
+- 源码来源: https://github.com/JiaY-shi/openwrt/tree/ipq60xx-devel_nss 感谢大佬
 - 云编译来源：https://github.com/haiibo/OpenWrt 感谢大佬
 
 ## 固件下载 [![](https://img.shields.io/badge/-编译状态及下载链接-FFFFFF.svg)](#固件下载-)
 点击下表中 [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?style=flat&logo=hack-the-box)](https://github.com/haiibo/OpenWrt/releases) 即可跳转到该设备固件下载页面
 | 平台+设备名称 | 固件编译状态 | 配置文件 | 固件下载 |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| [![](https://img.shields.io/badge/OpenWrt-IPQ6000-32C955.svg?logo=openwrt)](https://github.com/breeze303/OpenWrt/blob/main/.github/workflows/IPQ6000-6.1.yml) | [![](https://github.com/breeze303/OpenWrt/actions/workflows/IPQ6000-6.1.yml/badge.svg)](https://github.com/breeze303/OpenWrt/actions/workflows/IPQ60x-wifi.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/breeze303/OpenWrt/blob/main/configs/ipq60xx-wifi.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/breeze303/OpenWrt/releases) |
+| [![](https://img.shields.io/badge/OpenWrt-IPQ6000-32C955.svg?logo=openwrt)](https://github.com/breeze303/OpenWrt/blob/main/.github/workflows/IPQ6000-6.1.yml) | [![](https://github.com/breeze303/OpenWrt/actions/workflows/IPQ60x-wifi.yml/badge.svg)](https://github.com/breeze303/OpenWrt/actions/workflows/IPQ60x-wifi.yml) | [![](https://img.shields.io/badge/编译-配置-orange.svg?logo=apache-spark)](https://github.com/breeze303/OpenWrt/blob/main/configs/ipq60xx-wifi.config) | [![](https://img.shields.io/badge/下载-链接-blueviolet.svg?logo=hack-the-box)](https://github.com/breeze303/OpenWrt/releases) |
 
 ## 定制固件 [![](https://img.shields.io/badge/-项目基本编译教程-FFFFFF.svg)](#定制固件-)
 1. 首先要登录 Gihub 账号，然后 Fork 此项目到你自己的 Github 仓库
