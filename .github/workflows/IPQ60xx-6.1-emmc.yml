@@ -1,4 +1,4 @@
-name: IPQ60xx-6.1-wifi-emmc
+name: IPQ60XX-WIFI-EMMC
 
 on:
   workflow_dispatch:
