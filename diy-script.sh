@@ -28,7 +28,7 @@ git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFil
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 
 git clone --depth=1 https://github.com/mchome/openwrt-dogcom.git package/openwrt-dogcom
-&& git clone https://github.com/mchome/luci-app-dogcom.git package/luci-app-dogcom
+git clone https://github.com/mchome/luci-app-dogcom.git package/luci-app-dogcom
 
 
 svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/luci-app-filebrowser
