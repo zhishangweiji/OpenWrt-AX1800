@@ -10,6 +10,7 @@ env:
   REPO_BRANCH: main
   CONFIG_FILE: configs/ipq60xx-wifi-emmc.config
   DIY_SCRIPT: diy-script.sh
+  DOGCOM_PATH: dogom
   CLASH_KERNEL: amd64
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
@@ -94,6 +95,10 @@ jobs:
         cd $OPENWRT_PATH
         ./scripts/feeds update -a
         ./scripts/feeds install -a
+
+    - name: copy dogcom
+      run: |
+        cp -r $DOGCOM_PATH /package 
 
     - name: Load Custom Configuration
       run: |
